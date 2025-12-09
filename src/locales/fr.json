@@ -1,0 +1,9 @@
+{
+  "title": "Tableau de bord utilisateur",
+  "searchPlaceholder": "Recherche par nom ou par courriel...",
+  "previous": "Précédente",
+  "next": "Suivant",
+  "retry": "Réessayer",
+  "loading": "Chargement des utilisateurs...",
+  "noUser":"Aucun utilisateur trouvé."
+}

@@ -1,0 +1,9 @@
+{
+  "title": "User Dashboard",
+  "searchPlaceholder": "Search by name or email...",
+  "previous": "Previous",
+  "next": "Next",
+  "retry": "Retry",
+  "loading": "Loading users...",
+  "noUser": "No users found."
+}

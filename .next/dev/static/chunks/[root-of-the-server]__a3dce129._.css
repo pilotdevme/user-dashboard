@@ -1,0 +1,218 @@
+/* [next]/internal/font/google/geist_2ae47f08.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/8a480f0b521d4e75-s.8e0177b5.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/7178b3e590c64307-s.b97b3418.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/caa3a2e1cccd8315-s.p.853070df.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Fallback;
+  src: local(Arial);
+  ascent-override: 95.94%;
+  descent-override: 28.16%;
+  line-gap-override: 0.0%;
+  size-adjust: 104.76%;
+}
+
+.geist_2ae47f08-module__h69qWW__className {
+  font-family: Geist, Geist Fallback;
+  font-style: normal;
+}
+
+.geist_2ae47f08-module__h69qWW__variable {
+  --font-geist-sans: "Geist", "Geist Fallback";
+}
+
+/* [next]/internal/font/google/geist_mono_eb58308d.module.css [app-client] (css) */
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/4fa387ec64143e14-s.c1fdd6c2.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/bbc41e54d2fcbd21-s.799d8ef8.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/797e433ab948586e-s.p.dbea232f.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Mono Fallback;
+  src: local(Arial);
+  ascent-override: 74.67%;
+  descent-override: 21.92%;
+  line-gap-override: 0.0%;
+  size-adjust: 134.59%;
+}
+
+.geist_mono_eb58308d-module__w_p2Lq__className {
+  font-family: Geist Mono, Geist Mono Fallback;
+  font-style: normal;
+}
+
+.geist_mono_eb58308d-module__w_p2Lq__variable {
+  --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
+}
+
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --max-width: 900px;
+  --gap: 16px;
+  --muted: #6b7280;
+  --bg: #f8fafc;
+  --card: #fff;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: #111827;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  display: flex;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px #0f172a0d;
+}
+
+.user-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.user-row {
+  border-bottom: 1px solid #eef2f7;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 8px;
+  display: grid;
+}
+
+.user-row:last-child {
+  border-bottom: none;
+}
+
+.user-name {
+  font-weight: 600;
+}
+
+.user-email {
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+@media (max-width: 640px) {
+  .user-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.input {
+  border: 1px solid #e6edf3;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.pager {
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #e6edf3;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.btn[disabled] {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.small-muted {
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.spinner {
+  border: 3px solid #e6edf3;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: 1s linear infinite spin;
+  display: inline-block;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=%5Broot-of-the-server%5D__a3dce129._.css.map*/

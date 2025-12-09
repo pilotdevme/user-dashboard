@@ -1,0 +1,139 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --max-width: 900px;
+  --gap: 16px;
+  --muted: #6b7280;
+  --bg: #f8fafc;
+  --card: #fff;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: #111827;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  display: flex;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 3px #0000000d;
+}
+
+.user-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.loader-flex {
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+
+.user-row {
+  border-bottom: 1px solid #eef2f7;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 8px;
+  display: grid;
+}
+
+.user-row:last-child {
+  border-bottom: none;
+}
+
+.user-name {
+  font-weight: 600;
+}
+
+.user-email {
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+@media (max-width: 640px) {
+  .user-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.input {
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 15px;
+}
+
+.input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px #3b82f61a;
+}
+
+.pager {
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #e6edf3;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.btn[disabled] {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.small-muted {
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.spinner {
+  border: 3px solid #e6edf3;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: 1s linear infinite spin;
+  display: inline-block;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=src_app_globals_91e4631d.css.map*/
